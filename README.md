@@ -24,7 +24,8 @@ After creating the collection containing the malicious script, logging out, and 
 <img width="1448" height="960" alt="3" src="https://github.com/user-attachments/assets/8872ba75-ac0a-4c89-9b46-2ca845f33e21" />
 <img width="1448" height="986" alt="4" src="https://github.com/user-attachments/assets/19125e10-fafe-4b99-b925-3b69d56ddb27" />
 <img width="1445" height="1024" alt="5" src="https://github.com/user-attachments/assets/517f8d5a-c64f-4d57-bd91-ed77c584675a" />
-<img width="1281" height="815" alt="6" src="https://github.com/user-attachments/assets/5d5e51a6-a8e2-41f4-84ed-d394b8026778" />
+<img width="1281" height="815" alt="7" src="https://github.com/user-attachments/assets/d3ee20da-ce38-41fb-8e68-da15adbb42a5" />
+
 
 Note: In addition to cookie theft, this vulnerability could be exploited for various malicious purposes such as redirecting users to harmful websites, exfiltrating sensitive data, altering page content for phishing attacks, or executing actions on behalf of the user, as previously described in the impact section.
 
