@@ -17,7 +17,7 @@ The injected script was persistently stored in the application's backend and exe
 
 During testing on ecodotempo.com.br, the Stored XSS vulnerability was specifically identified in the Item Collection item creation process. It was possible to inject a malicious payload into the name or description fields of item creation, without active mitigation mechanisms—such as input validation, code-level filters, Web Application Firewall (WAF), or HTTP security headers.
 
-After creating the collection containing the malicious script, logging out, and accessing the main login page again, the payload automatically executed in the browser, resulting in a pop-up. In testing, this was used to demonstrate cookie scraping. This behavior confirms the lack of proper sanitization and the real possibility of arbitrary script execution within the victim's browser. See the evidence section below for an example.
+After creating the collection containing the malicious script, logging out and accessing the collection's main page, navigating to and clicking on a registered item, the payload automatically executed in the browser, resulting in a pop-up. In testing, this was used to demonstrate cookie scraping. This behavior confirms the lack of proper sanitization and the real possibility of arbitrary script execution in the victim's browser. See the evidence section below for an example.
 
 <img width="1452" height="865" alt="1" src="https://github.com/user-attachments/assets/2ba502a8-4e5a-4d7f-9602-1084a5c571dc" />
 <img width="1451" height="979" alt="2" src="https://github.com/user-attachments/assets/564d9c73-3271-4ad9-8a62-71d7ba4da724" />
